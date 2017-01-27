@@ -61,7 +61,7 @@ NSWindow *PA_GetWindowRef64(int winId)
 //	int minor = version & 0x000F;
 	int r = (version & 0x00F0) >> 4;
 	int major = (version & 0xFF00) >> 8;
-	if ((major >=0x15) && (r >= 3))
+	if (((major >=0x15) && (r >= 3)) || (major >=0x16))
 	{
 		return (NSWindow *)PA_GetWindowPtr(reinterpret_cast<NSWindow *>(winId));
 	}
