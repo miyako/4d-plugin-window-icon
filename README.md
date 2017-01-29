@@ -14,11 +14,13 @@ Get and set window icon, carbon or cocoa
 
 ###Syntax
 
-Commands
----
-
-```c
-// --- Window Icon
-WINDOW_SET_ICON
-WINDOW_Get_icon
 ```
+WINDOW SET ICON (window;icon)
+icon:=WINDOW Get icon (window)
+```
+
+Parameter|Type|Description
+------------|------|----
+window|INT32|The window reference
+icon|PICTURE|The icon
+---
