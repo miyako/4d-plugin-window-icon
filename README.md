@@ -21,6 +21,6 @@ icon:=WINDOW Get icon (window)
 
 Parameter|Type|Description
 ------------|------|----
-window|INT32|The window reference
+window|LONGINT|The window reference
 icon|PICTURE|The icon
 ---
